@@ -16,7 +16,7 @@ setup(
     author_email='ew2789@gmail.com',
     packages=find_packages(),
     include_package_data=True,
-    url='https://github.com/botswana-harvard/edc-timepoint',
+    url='https://github.com/clinicedc/edc-timepoint',
     license='GPL license, see LICENSE',
     description='Lock a timepoint from further editing once data is cleaned and reviewed.',
     long_description=README,
