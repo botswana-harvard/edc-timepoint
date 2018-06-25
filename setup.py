@@ -11,12 +11,12 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='edc-timepoint',
-    version='0.1.2',
+    version='0.1.3',
     author=u'Erik van Widenfelt',
     author_email='ew2789@gmail.com',
     packages=find_packages(),
     include_package_data=True,
-    url='https://github.com/botswana-harvard/edc-timepoint',
+    url='https://github.com/clinicedc/edc-timepoint',
     license='GPL license, see LICENSE',
     description='Lock a timepoint from further editing once data is cleaned and reviewed.',
     long_description=README,

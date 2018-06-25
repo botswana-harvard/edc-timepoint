@@ -7,7 +7,7 @@ With module `edc_timepoint` a data manager or supervisor is able to flag a model
 
 ### Install
 
-    pip install git+https://github.com/botswana-harvard/edc-timepoint@develop#egg=edc-timepoint
+    pip install git+https://github.com/clinicedc/edc-timepoint@develop#egg=edc-timepoint
     
 ### Usage
     
