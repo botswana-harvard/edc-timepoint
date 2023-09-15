@@ -42,7 +42,6 @@ INSTALLED_APPS = [
     'django_revision.apps.AppConfig',
     'edc_base.apps.AppConfig',
     'edc_device.apps.AppConfig',
-    'edc_appointment.apps.AppConfig',
     'edc_identifier.apps.AppConfig',
     'edc_timepoint.apps.AppConfig',
 ]
