@@ -1,4 +1,5 @@
 Django
+django_q
 git+https://github.com/botswana-harvard/edc-base@develop#egg=edc-base
 git+https://github.com/botswana-harvard/edc-device@develop#egg=edc-device
 git+https://github.com/botswana-harvard/edc-appointment.git@5c8a64f53b54db7a057a296c769d4e69f3400a3b
