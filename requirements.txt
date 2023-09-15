@@ -13,6 +13,7 @@ git+https://github.com/botswana-harvard/edc-model-admin.git@59406f3602ad31c45507
 git+https://github.com/botswana-harvard/edc-search.git@5ec22f14b3db2b8fcf328b94c3a0ca8845a8a78c
 git+https://github.com/botswana-harvard/edc-calendar.git@612d892114d769db17b5e030def5d44e11221edc
 git+https://github.com/botswana-harvard/edc-reference.git@4ce7d9a04b0c816ba0fded3e55985d5e9813c8db
+git+https://github.com/botswana-harvard/edc-sms.git@43f4cd5f97ab4b8c3a432506561633e131c9e68c
 git+https://github.com/botswana-harvard/edc-visit-schedule@develop#egg=edc-visit-schedule
 git+https://github.com/botswana-harvard/edc-visit-tracking@develop#egg=edc-visit-tracking
 git+https://github.com/botswana-harvard/edc-protocol@develop#egg=edc-protocol
