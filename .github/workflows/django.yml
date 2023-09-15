@@ -29,4 +29,5 @@ jobs:
     - name: Run Tests and Flake8
       run: |
         flake8 edc_timepoint
+        python manage.py test
        
