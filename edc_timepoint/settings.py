@@ -27,7 +27,7 @@ SECRET_KEY = '0o!47dxq$ghg%_1c0s&q9g5$oa0_cd6$tt=winswsr6b_#ip3s'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
+SITE_ID = 40
 
 # Application definition
 
