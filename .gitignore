@@ -12,8 +12,6 @@ south.log
 htmlcov
 .coverage
 db.sqlite3
-*.key
-*.pem
 build
 *.egg-info
 __pycache__
