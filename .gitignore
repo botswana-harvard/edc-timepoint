@@ -13,5 +13,7 @@ htmlcov
 .coverage
 db.sqlite3
 build
+*.key
+*.pem
 *.egg-info
 __pycache__
