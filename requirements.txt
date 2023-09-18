@@ -1,4 +1,4 @@
-Django==2.0
+
 django_q
 git+https://github.com/botswana-harvard/edc-base@develop#egg=edc-base
 git+https://github.com/botswana-harvard/edc-device@develop#egg=edc-device
