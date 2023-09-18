@@ -35,4 +35,5 @@ jobs:
       run: |
         flake8 edc_timepoint
         python manage.py test
+        python manage.py check
        
