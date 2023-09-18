@@ -17,7 +17,7 @@ import sys
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 APP_NAME = 'edc_timepoint'
 ETC_DIR = os.path.join(BASE_DIR, 'etc')
-KEY_PATH = os.path.join(ETC_DIR, 'crypto_fields')
+KEY_PATH = os.path.join('/tmp/tmpk9f_h7_9/', 'crypto_fields')
 # AUTO_CREATE_KEYS = True
 
 # Quick-start development settings - unsuitable for production
