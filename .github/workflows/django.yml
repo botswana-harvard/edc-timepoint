@@ -13,7 +13,7 @@ jobs:
     strategy:
       max-parallel: 4
       matrix:
-        python-version: [3.7, 3.8, 3.9]
+        python-version: [3.12.0]
         apt-packages: [libcups2-dev]
 
     steps:
@@ -27,13 +27,27 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y ${{ matrix.apt-packages }}
         python -m pip install --upgrade pip
+        pip install coverage
+        pip install coveralls 
+        pip install setuptools
         pip install flake8
         pip install -r requirements.txt
         pip uninstall pycryto -y
         pip install pycryptodome 
-    - name: Run Tests and Flake8
+    - name: Run Flake8
       run: |
         flake8 edc_timepoint
-        python manage.py test
         python manage.py check
+
+    - name: Run Tests
+      run: |
+          coverage run --source=edc_timepoint manage.py test
+          coverage xml -i
+      env:
+          COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
+    - name: Upload to Coveralls
+      uses: coverallsapp/github-action@v2
+      with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path-to-lcov: ./coverage.xml
        
