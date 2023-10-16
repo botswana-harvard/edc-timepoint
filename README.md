@@ -1,4 +1,5 @@
 [![Coverage Status](https://coveralls.io/repos/github/Botswana-Havard-Edc-Repos/edc-timepoint/badge.svg?branch=develop)](https://coveralls.io/github/Botswana-Havard-Edc-Repos/edc-timepoint?branch=develop)
+[![Django CI](https://github.com/Botswana-Havard-Edc-Repos/edc-timepoint/actions/workflows/django.yml/badge.svg)](https://github.com/Botswana-Havard-Edc-Repos/edc-timepoint/actions/workflows/django.yml)
 # edc-timepoint
 
 Lock a "timepoint" from further editing once data is cleaned and reviewed
