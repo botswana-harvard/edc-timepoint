@@ -17,5 +17,5 @@ git+https://github.com/botswana-harvard/edc-sms.git@43f4cd5f97ab4b8c3a4325065616
 git+https://github.com/botswana-harvard/edc-visit-schedule@develop#egg=edc-visit-schedule
 git+https://github.com/botswana-harvard/edc-visit-tracking@develop#egg=edc-visit-tracking
 git+https://github.com/botswana-harvard/edc-protocol@develop#egg=edc-protocol
-git+https://github.com/botswana-harvard/django-revision.git@413b56162a0e73689d94c452b34b859add4e5a08
+git+https://github.com/botswana-harvard/django-revision@develop#egg=django-revision
 git+https://github.com/botswana-harvard/django-crypto-fields@develop#egg=django-crypto-fields
