@@ -16,8 +16,8 @@ def update_timepoint_on_post_save(sender, instance, raw, created, using, **kwarg
             if 'historical' not in sender._meta.label_lower:
                 timepoint = app_config.timepoints.get(sender._meta.label_lower)
                 datetime_value = getattr(instance, timepoint.datetime_field)
-                if (instance.timepoint_opened_datetime is None
-                        or instance.timepoint_opened_datetime != datetime_value):
+                if (instance.timepoint_opened_datetime is None or instance.
+                        timepoint_opened_datetime != datetime_value):
                     instance.timepoint_opened_datetime = datetime_value
                     instance.timepoint_status = OPEN_TIMEPOINT
                     instance.save(
